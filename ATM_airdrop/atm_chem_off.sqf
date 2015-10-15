@@ -1,4 +1,3 @@
-diag_log format ["Calling atm_chem_off.sqf with: %1", _this];
 _target = _this select 0;
 _caller = _this select 1;
 _id = _this select 2;

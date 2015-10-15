@@ -1,4 +1,3 @@
-diag_log format ["Calling playerevac.sqf with: %1", _this];
 if (isDedicated) exitWith {};
 waitUntil {!isNull player};
 

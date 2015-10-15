@@ -1,4 +1,3 @@
-diag_log format ["Calling lift.sqf with: %1", _this];
 _veh = objNull;
 _vehCar = nearestObject [vehicle player, "Car"];
 _vehTank = nearestObject [vehicle player, "Tank"];

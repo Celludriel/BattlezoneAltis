@@ -1,4 +1,3 @@
-diag_log format ["Calling unitInit.sqf with %1", _this];
 if (isDedicated) exitWith {};
 
 diag_log format ["ParamsArray: %1", ParamsArray];

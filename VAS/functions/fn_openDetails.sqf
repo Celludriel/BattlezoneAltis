@@ -1,4 +1,3 @@
-diag_log format ["Calling fn_openDetails.sqf with: %1", _this];
 /*
 	File: fn_openDetails.sqf
 	Author: TAW_Tonic

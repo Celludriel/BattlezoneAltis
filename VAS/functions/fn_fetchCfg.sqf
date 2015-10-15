@@ -1,4 +1,3 @@
-diag_log format ["Calling fn_fetchCfg.sqf with: %1", _this];
 /*
 	File: fn_fetchCfg.sqf
 	Version Edit: 2.5

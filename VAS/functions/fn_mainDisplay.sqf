@@ -1,4 +1,3 @@
-diag_log format ["Calling fn_mainDisplay.sqf with: %1", _this];
 #include "macro.sqf"
 /*
 	@version: 2.6

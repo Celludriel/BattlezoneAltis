@@ -1,4 +1,3 @@
-diag_log format ["Calling fn_quickAddDrag.sqf with: %1", _this];
 /*
 	File: fn_quickAddDrag.sqf
 	Version Edit: 2.5

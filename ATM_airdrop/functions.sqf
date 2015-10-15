@@ -1,4 +1,3 @@
-diag_log format ["Calling functions.sqf with: %1", _this];
 ///////////////////////////////////////////////////////////
 //                =ATM= Airdrop       	 				    //
 //         		 =ATM=Pokertour        		       		    //

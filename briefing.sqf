@@ -1,4 +1,3 @@
-diag_log format ["Calling briefing.sqf with: %1", _this];
 player createDiaryRecord ["Diary", ["Welcome to Battlezone Altis!", "
 This is a trimmed down domination style coop mission for up to 12 players. 
 It features similar gameplay as regular domination missions but with less players and AI involved. 

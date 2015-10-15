@@ -1,4 +1,3 @@
-diag_log format ["Calling fn_quickAttachment.sqf with: %1", _this];
 /*
 	File: fn_quickAttachment.sqf
 	Author: Bryan "Tonic" Boardwine

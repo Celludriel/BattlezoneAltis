@@ -1,4 +1,3 @@
-diag_log format ["Calling fn_filterType.sqf with: %1", _this];
 /*
 	File: fn_filterType.sqf
 	Author: Bryan "Tonic" Boardwine

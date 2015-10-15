@@ -1,4 +1,3 @@
-diag_log format ["Calling fn_quickItem.sqf with: %1", _this];
 /*
 	File: fn_quickItem.sqf
 	Author: TAW_Tonic

@@ -1,4 +1,3 @@
-diag_log format ["Calling fn_mainDisplay.sqf with: %1", _this];
 /*
 	File: fn_mainDisplay.sqf
 	Author: Bryan "Tonic" Boardwine

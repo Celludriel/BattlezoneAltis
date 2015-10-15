@@ -1,4 +1,3 @@
-diag_log format ["Calling safezone.sqf with: %1", _this];
 waitUntil {time > 0};
 
 _markpos = getMarkerPos "respawn_west";

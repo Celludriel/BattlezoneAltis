@@ -1,4 +1,3 @@
-diag_log format ["Calling refreshactions.sqf with: %1", _this];
 if (isDedicated) exitWith {};
 
 removeAllActions MedicOfficer;

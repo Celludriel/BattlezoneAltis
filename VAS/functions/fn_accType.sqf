@@ -1,4 +1,3 @@
-diag_log format ["Calling fn_accType.sqf with: %1", _this];
 /*
 	File: fn_accType.sqf
 	Author: TAW_Tonic

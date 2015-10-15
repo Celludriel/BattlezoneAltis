@@ -1,4 +1,3 @@
-diag_log format ["Calling fn_buildCfg.sqf with: %1", _this];
 /*
 	File: fn_buildCfg.sqf
 	Author: Bryan "Tonic" Boardwine

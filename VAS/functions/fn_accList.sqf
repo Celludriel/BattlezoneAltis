@@ -1,4 +1,3 @@
-diag_log format ["Calling fn_accList.sqf with: %1", _this];
 /*
 	File: fn_accList.sqf
 	Version Edit: 2.5

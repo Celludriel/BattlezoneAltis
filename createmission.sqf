@@ -1,4 +1,3 @@
-diag_log format ["Calling createmission.sqf with: %1", _this];
 if (!isServer) exitWith {};
 
 _exit = false;

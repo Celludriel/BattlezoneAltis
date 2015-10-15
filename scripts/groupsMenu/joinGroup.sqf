@@ -1,4 +1,3 @@
-diag_log format ["Calling joinGroup.sqf with: %1", _this];
 private ["_caller"];
 _caller = _this select 1;
 

@@ -1,4 +1,3 @@
-diag_log format ["Calling drop.sqf with: %1", _this];
 _veh = vehicle player getVariable "CUP_attached" select 1;
 _EHid = vehicle player getVariable "CUP_attached" select 2;
 

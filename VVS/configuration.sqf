@@ -1,4 +1,3 @@
-diag_log format ["Calling configuration.sqf with: %1", _this];
 //Only display vehicles for that players side, if true Opfor can only spawn Opfor vehicles and so on.
 VVS_SideOnly = false;
 

@@ -1,4 +1,3 @@
-diag_log format ["Calling fn_trackViewDistance.sqf with: %1", _this];
 /*
 	File: fn_trackViewDistance.sqf
 	Author: Bryan "Tonic" Boardwine

@@ -1,4 +1,3 @@
-diag_log format ["Calling MGI_add_actions.sqf with: %1", _this];
 if ((!isDedicated and !isServer) or hasInterface) then {
 	waitUntil {!isNull player}; // waitUntil the player variable exists
 	toggle_icons = 0;

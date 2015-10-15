@@ -1,4 +1,3 @@
-diag_log format ["Calling lift_init.sqf with: %1", _this];
 waitUntil {player == player}; //JIP compatibility and general safety
 
 CUP_vehBlacklist = _this select 0;

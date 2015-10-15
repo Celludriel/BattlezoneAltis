@@ -1,4 +1,3 @@
-diag_log format ["Calling quitLead.sqf with: %1", _this];
 private ["_newLead","_caller","_curGroup"];
 _caller = _this select 1;
 

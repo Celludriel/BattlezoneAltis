@@ -1,4 +1,3 @@
-diag_log format ["Calling FAR_handleAction.sqf with: %1", _this];
 private ["_params", "_action"];
 
 // Parameters passed by the action

@@ -1,4 +1,3 @@
-diag_log format ["Calling MGI_stance_coef.sqf with: %1", _this];
 /* Pierre MGI - stance_coef.sqf - August 2014
 
 for icons drawn above units

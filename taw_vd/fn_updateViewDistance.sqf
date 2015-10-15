@@ -1,4 +1,3 @@
-diag_log format ["Calling fn_updateViewDistance.sqf with: %1", _this];
 /*
 	File: fn_updateViewDistance.sqf
 	Author: Bryan "Tonic" Boardwine

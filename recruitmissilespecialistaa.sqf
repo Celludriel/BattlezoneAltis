@@ -1,4 +1,3 @@
-diag_log format ["Calling recruitmissilespecialistaa.sqf with: %1", _this];
 _exit = false;
 if (!isFormationLeader player) then {
 	systemChat "OFFICER: Only team leader can recruit AI for your team.";

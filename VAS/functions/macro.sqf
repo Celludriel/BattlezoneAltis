@@ -1,4 +1,3 @@
-diag_log format ["Calling macro.sqf with: %1", _this];
 //VAS Main Display idc's
 #define VAS_Main_Display 2500
 #define VAS_detail_magsbg 2507

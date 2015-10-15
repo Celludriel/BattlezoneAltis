@@ -1,4 +1,3 @@
-diag_log format ["Calling fn_mainInit.sqf with: %1", _this];
 /*
 	@version: 2.0
 	@file_name: fn_mainInit.sqf

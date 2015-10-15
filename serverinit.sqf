@@ -1,4 +1,3 @@
-diag_log format ["Calling serverinit.sqf with: %1", _this];
 if (!isServer) exitWith {};
 
 waitUntil { time > 0 };

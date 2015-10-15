@@ -1,4 +1,3 @@
-diag_log format ["Calling destroymission.sqf with: %1", _this];
 if (!isServer) exitWith {};
 if (!isDedicated) then { { player removeSimpleTask _x } forEach simpleTasks player; };
 

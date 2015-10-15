@@ -1,4 +1,3 @@
-diag_log format ["Calling fn_spawnVehicle.sqf with: %1", _this];
 /*
 	File: fn_spawnVehicle.sqf
 	Author: Bryan "Tonic" Boardwine

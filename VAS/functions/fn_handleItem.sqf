@@ -1,4 +1,3 @@
-diag_log format ["Calling fn_handleItem.sqf with: %1", _this];
 /*
 	@version: 2.2
 	@file_name: fn_handleItem.sqf

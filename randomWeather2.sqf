@@ -1,4 +1,3 @@
-diag_log format ["Calling randomWeather2.sqf with: %1", _this];
 // randomWeather2 Script
 // By Meatball 
 // v 0.9

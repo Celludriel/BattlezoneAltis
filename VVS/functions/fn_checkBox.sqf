@@ -1,4 +1,3 @@
-diag_log format ["Calling fn_checkBox.sqf with: %1", _this];
 /*
 	File: fn_checkBox.sqf
 	

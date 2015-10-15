@@ -1,4 +1,3 @@
-diag_log format ["Calling fn_fetchPlayerGear.sqf with: %1", _this];
 /*
 	@version: 1.3
 	@file_name: fn_fetchPlayerGear.sqf

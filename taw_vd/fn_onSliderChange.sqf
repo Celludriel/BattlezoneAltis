@@ -1,4 +1,3 @@
-diag_log format ["Calling fn_onSliderChange.sqf with: %1", _this];
 /*
 	File: fn_onSliderChange.sqf
 	Author: Bryan "Tonic" Boardwine

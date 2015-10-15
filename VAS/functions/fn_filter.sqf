@@ -1,4 +1,3 @@
-diag_log format ["Calling fn_filter.sqf with: %1", _this];
 /*
 	@version: 1.9
 	@file_name: fn_filter.sqf

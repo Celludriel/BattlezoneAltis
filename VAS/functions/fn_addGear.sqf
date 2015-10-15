@@ -1,4 +1,3 @@
-diag_log format ["Calling fn_addGear.sqf with: %1", _this];
 #include "macro.sqf"
 /*
 	@version: 1.7

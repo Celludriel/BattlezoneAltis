@@ -1,4 +1,3 @@
-diag_log format ["Calling misc_functions.sqf with: %1", _this];
 /*
 	@version: 1.0
 	@file_name: misc_functions.sqf

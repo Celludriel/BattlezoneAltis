@@ -1,4 +1,3 @@
-diag_log format ["Calling gearsave.sqf with: %1", _this];
 waitUntil {!isNull player};
 
 vUniform = uniform player;

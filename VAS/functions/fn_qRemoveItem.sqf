@@ -1,4 +1,3 @@
-diag_log format ["Calling fn_qRemoveItem.sqf with: %1", _this];
 /*
 	File: fn_qRemoveItem.sqf
 	Author: TAW_Tonic

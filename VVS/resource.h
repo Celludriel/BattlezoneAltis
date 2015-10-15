@@ -12,7 +12,7 @@ class VVS_RscControlsGroup {
 	h = 1;
 	shadow = 0;
 	style = 16;
-	
+
 	class VScrollbar {
 		width = 0.021;
 		autoScrollSpeed = -1;
@@ -20,12 +20,12 @@ class VVS_RscControlsGroup {
 		autoScrollRewind = 0;
 		shadow = 0;
 	};
-	
+
 	class HScrollbar {
 		height = 0.028;
 		shadow = 0;
 	};
-	
+
 	class ListScrollBar {
 		color[] = {1, 1, 1, 0.6};
 		colorActive[] = {1, 1, 1, 1};
@@ -35,7 +35,7 @@ class VVS_RscControlsGroup {
 		arrowEmpty = "\A3\ui_f\data\gui\cfg\scrollbar\arrowEmpty_ca.paa";
 		border = "\A3\ui_f\data\gui\cfg\scrollbar\border_ca.paa";
 	};
-	
+
 	class Controls {};
 };
 
@@ -43,7 +43,7 @@ class VVS_RscControlsGroupNoScrollbars : VVS_RscControlsGroup {
 	class VScrollbar : VScrollbar {
 		width = 0;
 	};
-	
+
 	class HScrollbar : HScrollbar {
 		height = 0;
 	};
@@ -157,7 +157,7 @@ class VVS_RscStructuredText {
 	size = "(			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
 	colorText[] = {1, 1, 1, 1.0};
 	shadow = 1;
-	
+
 	class Attributes {
 		font = "PuristaMedium";
 		color = "#ffffff";
@@ -166,7 +166,7 @@ class VVS_RscStructuredText {
 	};
 };
 
-class VVS_RscActiveText 
+class VVS_RscActiveText
 {
 	idc = -1;
     type = 11;
@@ -179,6 +179,7 @@ class VVS_RscActiveText
     font = "PuristaLight";
     color[] = {1, 1, 1, 1};
     colorActive[] = {1, 0.2, 0.2, 1};
+	colorDisabled[] = {1, 1, 1, 0.500000};
     soundEnter[] = {"\A3\ui_f\data\sound\onover", 0.09, 1};
     soundPush[] = {"\A3\ui_f\data\sound\new1", 0.0, 0};
     soundClick[] = {"\A3\ui_f\data\sound\onclick", 0.07, 1};
@@ -361,21 +362,21 @@ class VVS_RscShortcutButtonMain : VVS_RscShortcutButton {
 	h = 0.104575;
 	color[] = {1, 1, 1, 1.0};
 	colorDisabled[] = {1, 1, 1, 0.25};
-	
+
 	class HitZone {
 		left = 0.0;
 		top = 0.0;
 		right = 0.0;
 		bottom = 0.0;
 	};
-	
+
 	class ShortcutPos {
 		left = 0.0145;
 		top = "(			(		(		((safezoneW / safezoneH) min 1.2) / 1.2) / 20) - 		(			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1.2)) / 2";
 		w = "(			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1.2) * (3/4)";
 		h = "(			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1.2)";
 	};
-	
+
 	class TextPos {
 		left = "(		((safezoneW / safezoneH) min 1.2) / 32) * 1.5";
 		top = "(			(		(		((safezoneW / safezoneH) min 1.2) / 1.2) / 20)*2 - 		(			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1.2)) / 2";
@@ -398,14 +399,14 @@ class VVS_RscShortcutButtonMain : VVS_RscShortcutButton {
 	soundClick[] = {"\A3\ui_f\data\sound\onclick", 0.07, 1};
 	soundEscape[] = {"\A3\ui_f\data\sound\onescape", 0.09, 1};
 	action = "";
-	
+
 	class Attributes {
 		font = "PuristaMedium";
 		color = "#E5E5E5";
 		align = "left";
 		shadow = "false";
 	};
-	
+
 	class AttributesImage {
 		font = "PuristaMedium";
 		color = "#E5E5E5";
@@ -413,7 +414,7 @@ class VVS_RscShortcutButtonMain : VVS_RscShortcutButton {
 	};
 };
 
-class VVS_RscCheckbox 
+class VVS_RscCheckbox
 {
 	idc = -1;
 	type = 7;
@@ -478,7 +479,7 @@ class VVS_RscListBox {
 	autoScrollSpeed = -1;
 	autoScrollDelay = 5;
 	autoScrollRewind = 0;
-	
+
 	class ScrollBar {
 		color[] = {1, 1, 1, 0.6};
 		colorActive[] = {1, 1, 1, 1};
@@ -508,6 +509,7 @@ class VVS_RscSlider {
 	h = 0.025;
 	color[] = {1, 1, 1, 0.8};
 	colorActive[] = {1, 1, 1, 1};
+	colorDisabled[] = {1, 1, 1, 0.500000};
 };
 
 class VVS_RscFrame {
@@ -547,49 +549,49 @@ class VVS_RscHTML {
 	prevPage = "\A3\ui_f\data\gui\Rsccommon\Rschtml\arrow_left_ca.paa";
 	nextPage = "\A3\ui_f\data\gui\Rsccommon\Rschtml\arrow_right_ca.paa";
 	shadow = 2;
-	
+
 	class H1 {
 		font = "PuristaMedium";
 		fontBold = "PuristaSemibold";
 		sizeEx = "(			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1.2)";
 		align = "left";
 	};
-	
+
 	class H2 {
 		font = "PuristaMedium";
 		fontBold = "PuristaSemibold";
 		sizeEx = "(			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
 		align = "right";
 	};
-	
+
 	class H3 {
 		font = "PuristaMedium";
 		fontBold = "PuristaSemibold";
 		sizeEx = "(			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
 		align = "left";
 	};
-	
+
 	class H4 {
 		font = "PuristaMedium";
 		fontBold = "PuristaSemibold";
 		sizeEx = "(			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
 		align = "left";
 	};
-	
+
 	class H5 {
 		font = "PuristaMedium";
 		fontBold = "PuristaSemibold";
 		sizeEx = "(			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
 		align = "left";
 	};
-	
+
 	class H6 {
 		font = "PuristaMedium";
 		fontBold = "PuristaSemibold";
 		sizeEx = "(			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
 		align = "left";
 	};
-	
+
 	class P {
 		font = "PuristaMedium";
 		fontBold = "PuristaSemibold";
@@ -669,7 +671,7 @@ class VVS_RscMapControl {
 	fontLevel = "TahomaB";
 	sizeExLevel = 0.02;
 	text = "#(argb,8,8,3)color(1,1,1,1)";
-	
+
 	class Legend {
 		x = "SafeZoneX + 					(			((safezoneW / safezoneH) min 1.2) / 40)";
 		y = "SafeZoneY + safezoneH - 4.5 * 					(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
@@ -680,7 +682,7 @@ class VVS_RscMapControl {
 		colorBackground[] = {1, 1, 1, 0.5};
 		color[] = {0, 0, 0, 1};
 	};
-	
+
 	class ActiveMarker
 	{
 		color[] =
@@ -692,7 +694,7 @@ class VVS_RscMapControl {
 		};
 		size = 50;
 	};
-	
+
 	class Task {
 		icon = "\A3\ui_f\data\map\mapcontrol\taskIcon_CA.paa";
 		iconCreated = "\A3\ui_f\data\map\mapcontrol\taskIconCreated_CA.paa";
@@ -709,17 +711,17 @@ class VVS_RscMapControl {
 		coefMin = 1;
 		coefMax = 1;
 	};
-	
+
 	class Waypoint {
 		icon = "\A3\ui_f\data\map\mapcontrol\waypoint_ca.paa";
 		color[] = {0, 0, 0, 1};
 	};
-	
+
 	class WaypointCompleted {
 		icon = "\A3\ui_f\data\map\mapcontrol\waypointCompleted_ca.paa";
 		color[] = {0, 0, 0, 1};
 	};
-	
+
 	class CustomMark {
 		icon = "\A3\ui_f\data\map\mapcontrol\custommark_ca.paa";
 		size = 24;
@@ -728,7 +730,7 @@ class VVS_RscMapControl {
 		coefMax = 1;
 		color[] = {0, 0, 0, 1};
 	};
-	
+
 	class Command {
 		icon = "\A3\ui_f\data\map\mapcontrol\waypoint_ca.paa";
 		size = 18;
@@ -737,7 +739,7 @@ class VVS_RscMapControl {
 		coefMax = 1;
 		color[] = {1, 1, 1, 1};
 	};
-	
+
 	class Bush {
 		icon = "\A3\ui_f\data\map\mapcontrol\bush_ca.paa";
 		color[] = {0.45, 0.64, 0.33, 0.4};
@@ -746,7 +748,7 @@ class VVS_RscMapControl {
 		coefMin = 0.25;
 		coefMax = 4;
 	};
-	
+
 	class Rock {
 		icon = "\A3\ui_f\data\map\mapcontrol\rock_ca.paa";
 		color[] = {0.1, 0.1, 0.1, 0.8};
@@ -755,7 +757,7 @@ class VVS_RscMapControl {
 		coefMin = 0.25;
 		coefMax = 4;
 	};
-	
+
 	class SmallTree {
 		icon = "\A3\ui_f\data\map\mapcontrol\bush_ca.paa";
 		color[] = {0.45, 0.64, 0.33, 0.4};
@@ -764,7 +766,7 @@ class VVS_RscMapControl {
 		coefMin = 0.25;
 		coefMax = 4;
 	};
-	
+
 	class Tree {
 		icon = "\A3\ui_f\data\map\mapcontrol\bush_ca.paa";
 		color[] = {0.45, 0.64, 0.33, 0.4};
@@ -773,7 +775,7 @@ class VVS_RscMapControl {
 		coefMin = 0.25;
 		coefMax = 4;
 	};
-	
+
 	class busstop {
 		icon = "\A3\ui_f\data\map\mapcontrol\busstop_CA.paa";
 		size = 24;
@@ -782,7 +784,7 @@ class VVS_RscMapControl {
 		coefMax = 1.0;
 		color[] = {1, 1, 1, 1};
 	};
-	
+
 	class fuelstation {
 		icon = "\A3\ui_f\data\map\mapcontrol\fuelstation_CA.paa";
 		size = 24;
@@ -791,7 +793,7 @@ class VVS_RscMapControl {
 		coefMax = 1.0;
 		color[] = {1, 1, 1, 1};
 	};
-	
+
 	class hospital {
 		icon = "\A3\ui_f\data\map\mapcontrol\hospital_CA.paa";
 		size = 24;
@@ -800,7 +802,7 @@ class VVS_RscMapControl {
 		coefMax = 1.0;
 		color[] = {1, 1, 1, 1};
 	};
-	
+
 	class church {
 		icon = "\A3\ui_f\data\map\mapcontrol\church_CA.paa";
 		size = 24;
@@ -809,7 +811,7 @@ class VVS_RscMapControl {
 		coefMax = 1.0;
 		color[] = {1, 1, 1, 1};
 	};
-	
+
 	class lighthouse {
 		icon = "\A3\ui_f\data\map\mapcontrol\lighthouse_CA.paa";
 		size = 24;
@@ -818,7 +820,7 @@ class VVS_RscMapControl {
 		coefMax = 1.0;
 		color[] = {1, 1, 1, 1};
 	};
-	
+
 	class power {
 		icon = "\A3\ui_f\data\map\mapcontrol\power_CA.paa";
 		size = 24;
@@ -827,7 +829,7 @@ class VVS_RscMapControl {
 		coefMax = 1.0;
 		color[] = {1, 1, 1, 1};
 	};
-	
+
 	class powersolar {
 		icon = "\A3\ui_f\data\map\mapcontrol\powersolar_CA.paa";
 		size = 24;
@@ -836,7 +838,7 @@ class VVS_RscMapControl {
 		coefMax = 1.0;
 		color[] = {1, 1, 1, 1};
 	};
-	
+
 	class powerwave {
 		icon = "\A3\ui_f\data\map\mapcontrol\powerwave_CA.paa";
 		size = 24;
@@ -845,7 +847,7 @@ class VVS_RscMapControl {
 		coefMax = 1.0;
 		color[] = {1, 1, 1, 1};
 	};
-	
+
 	class powerwind {
 		icon = "\A3\ui_f\data\map\mapcontrol\powerwind_CA.paa";
 		size = 24;
@@ -854,7 +856,7 @@ class VVS_RscMapControl {
 		coefMax = 1.0;
 		color[] = {1, 1, 1, 1};
 	};
-	
+
 	class quay {
 		icon = "\A3\ui_f\data\map\mapcontrol\quay_CA.paa";
 		size = 24;
@@ -863,7 +865,7 @@ class VVS_RscMapControl {
 		coefMax = 1.0;
 		color[] = {1, 1, 1, 1};
 	};
-	
+
 	class shipwreck {
 		icon = "\A3\ui_f\data\map\mapcontrol\shipwreck_CA.paa";
 		size = 24;
@@ -872,7 +874,7 @@ class VVS_RscMapControl {
 		coefMax = 1.0;
 		color[] = {1, 1, 1, 1};
 	};
-	
+
 	class transmitter {
 		icon = "\A3\ui_f\data\map\mapcontrol\transmitter_CA.paa";
 		size = 24;
@@ -881,7 +883,7 @@ class VVS_RscMapControl {
 		coefMax = 1.0;
 		color[] = {1, 1, 1, 1};
 	};
-	
+
 	class watertower {
 		icon = "\A3\ui_f\data\map\mapcontrol\watertower_CA.paa";
 		size = 24;
@@ -890,7 +892,7 @@ class VVS_RscMapControl {
 		coefMax = 1.0;
 		color[] = {1, 1, 1, 1};
 	};
-	
+
 	class Cross {
 		icon = "\A3\ui_f\data\map\mapcontrol\Cross_CA.paa";
 		size = 24;
@@ -899,7 +901,7 @@ class VVS_RscMapControl {
 		coefMax = 1.0;
 		color[] = {0, 0, 0, 1};
 	};
-	
+
 	class Chapel {
 		icon = "\A3\ui_f\data\map\mapcontrol\Chapel_CA.paa";
 		size = 24;
@@ -908,7 +910,7 @@ class VVS_RscMapControl {
 		coefMax = 1.0;
 		color[] = {0, 0, 0, 1};
 	};
-	
+
 	class Bunker {
 		icon = "\A3\ui_f\data\map\mapcontrol\bunker_ca.paa";
 		size = 14;
@@ -917,7 +919,7 @@ class VVS_RscMapControl {
 		coefMax = 4;
 		color[] = {0, 0, 0, 1};
 	};
-	
+
 	class Fortress {
 		icon = "\A3\ui_f\data\map\mapcontrol\bunker_ca.paa";
 		size = 16;
@@ -926,7 +928,7 @@ class VVS_RscMapControl {
 		coefMax = 4;
 		color[] = {0, 0, 0, 1};
 	};
-	
+
 	class Fountain {
 		icon = "\A3\ui_f\data\map\mapcontrol\fountain_ca.paa";
 		size = 11;
@@ -935,7 +937,7 @@ class VVS_RscMapControl {
 		coefMax = 4;
 		color[] = {0, 0, 0, 1};
 	};
-	
+
 	class Ruin {
 		icon = "\A3\ui_f\data\map\mapcontrol\ruin_ca.paa";
 		size = 16;
@@ -944,7 +946,7 @@ class VVS_RscMapControl {
 		coefMax = 4;
 		color[] = {0, 0, 0, 1};
 	};
-	
+
 	class Stack {
 		icon = "\A3\ui_f\data\map\mapcontrol\stack_ca.paa";
 		size = 20;
@@ -953,7 +955,7 @@ class VVS_RscMapControl {
 		coefMax = 4;
 		color[] = {0, 0, 0, 1};
 	};
-	
+
 	class Tourism {
 		icon = "\A3\ui_f\data\map\mapcontrol\tourism_ca.paa";
 		size = 16;
@@ -962,7 +964,7 @@ class VVS_RscMapControl {
 		coefMax = 4;
 		color[] = {0, 0, 0, 1};
 	};
-	
+
 	class ViewTower {
 		icon = "\A3\ui_f\data\map\mapcontrol\viewtower_ca.paa";
 		size = 16;
@@ -1000,7 +1002,7 @@ class VVS_RscCombo {
 	colorDisabled[] = {1, 1, 1, 0.25};
 	font = "PuristaMedium";
 	sizeEx = "(			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
-	
+
 	class ComboScrollBar {
 		color[] = {1, 1, 1, 0.6};
 		colorActive[] = {1, 1, 1, 1};

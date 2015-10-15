@@ -1,4 +1,3 @@
-diag_log format ["Calling fn_transferAction.sqf with: %1", _this];
 #include "macro.sqf"
 /*
 	File: fn_transferAction.sqf

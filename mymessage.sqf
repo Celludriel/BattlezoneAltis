@@ -1,4 +1,3 @@
-diag_log format ["Calling mymessage.sqf with: %1", _this];
 _title = if (count _this > 0) then { _this select 0 } else { exit; };
 _text = if (count _this > 1) then { _this select 1 } else { exit; };
 

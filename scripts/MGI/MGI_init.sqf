@@ -1,4 +1,3 @@
-diag_log format ["Calling MGI_init.sqf with: %1", _this];
 MGI_fnc_tacIcons = compile preprocessFileLineNumbers "scripts\MGI\MGI_Tactical_Icons.sqf";
 MGI_Stance = compile preprocessFileLineNumbers "scripts\MGI\MGI_stance_coef.sqf";
 

@@ -1,4 +1,3 @@
-diag_log format ["Calling callsupplydrop.sqf with: %1", _this];
 waitUntil {!isNull player};
 _exit = false;
 

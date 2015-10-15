@@ -1,4 +1,3 @@
-diag_log format ["Calling fn_SaveLoad.sqf with: %1", _this];
 #include "macro.sqf"
 /*
 	@version: 1.1

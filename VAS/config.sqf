@@ -1,4 +1,3 @@
-diag_log format ["Calling config.sqf with: %1", _this];
 //Allow player to respawn with his loadout? If true unit will respawn with all ammo from initial save! Set to false to disable this and rely on other scripts!
 vas_onRespawn = true;
 //Preload Weapon Config?

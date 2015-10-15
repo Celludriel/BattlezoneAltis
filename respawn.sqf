@@ -1,4 +1,3 @@
-diag_log format ["Calling respawn.sqf with: %1", _this];
 waitUntil {!isNull player};
 
 _handle = [] execVM "refreshplayeractions.sqf";

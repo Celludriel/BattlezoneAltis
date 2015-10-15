@@ -1,4 +1,3 @@
-diag_log format ["Calling clientrefresh.sqf with: %1", _this];
 if (isServer) exitWith {};
 waitUntil {!isNull player};
 

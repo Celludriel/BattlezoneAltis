@@ -1,4 +1,3 @@
-diag_log format ["Calling fn_openTAWVD.sqf with: %1", _this];
 /*
 	File: fn_openTAWVD.sqf
 	Author: Bryan "Tonic" Boardwine
